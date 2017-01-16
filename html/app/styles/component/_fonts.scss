@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Candara-Italic';
+  src: url('#{$icon-font-path}Candara-Italic.eot?#iefix') format('embedded-opentype'),  url('#{$icon-font-path}Candara-Italic.woff') format('woff'), url('#{$icon-font-path}Candara-Italic.ttf')  format('truetype'), url('#{$icon-font-path}Candara-Italic.svg#Candara-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'gidole';
+    src: url('#{$icon-font-path}gidole-regular-webfont.woff2') format('woff2'),
+         url('#{$icon-font-path}gidole-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

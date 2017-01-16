@@ -5,6 +5,12 @@ $icon-font-path: '../fonts/';
 @import "bower_components/slick-carousel/slick/slick.scss";
 // endbower
 
+@import "component/variables";
+@import "component/spritesheet";
+@import "component/fonts";
+@import "component/mixins";
+@import "component/base";
+
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;

@@ -46,7 +46,7 @@ gulp.task('sprite',() => {
       imgName: 'spritesheet.png',
       imgPath: '../images/spritesheet.png',
         // cssTemplate : 'app/scss/templates/spritesheet.scss.handlebars',
-      cssName: '_spritesheet.scss'
+      cssName: 'component/_spritesheet.scss'
     }));
     test.img.pipe(gulp.dest('app/images'))
     test.css.pipe(gulp.dest('app/styles/'));
